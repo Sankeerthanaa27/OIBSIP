@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: black;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+.sign-in {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero {
+    padding: 100px 20px;
+    background-color: #222;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.cta {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.feature {
+    max-width: 300px;
+}
+
+.fast-streaming {
+    background-color: #222;
+    padding: 50px;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+}
+
+footer p {
+    margin: 10px 0;
+}
